@@ -25,6 +25,6 @@
   })
 
   provisioner "local-exec" {
-    command = "aws s3 cp ${var.website_location} ${var.bucket_name} --recursive"
+    command = "aws s3 cp App/ ${var.bucket_name} --recursive"
   }
  }

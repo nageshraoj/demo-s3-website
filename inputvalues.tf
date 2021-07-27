@@ -8,7 +8,3 @@ variable "bucket_name" {
   type = string
 }
 
-variable "website_location" {
-  description = "Path of website"
-  type = string
-}
